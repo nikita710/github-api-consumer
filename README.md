@@ -30,32 +30,32 @@ A Spring Boot application for consuming the GitHub REST API. It fetches user rep
 ### Setup
 
 1. **Clone the repository:**
-   
-   -git clone https://github.com/nikita710/github-api-consumer.git
-   -cd github-api-consumer
-   -1.1 Build the project:
-      -mvn clean install
-   -1.2 Run the application:
-      -mvn spring-boot:run
+   ```sh
+   - git clone https://github.com/nikita710/github-api-consumer.git
+   - cd github-api-consumer
+   - 1.1 Build the project:
+      - mvn clean install
+   - 1.2 Run the application:
+      - mvn spring-boot:run
 
 2. **Configuration:**
-   -Update your GitHub token in src/main/resources/application.yml:
+- Update your GitHub token in src/main/resources/application.yml:
 
 ### Usage 
-   -The main endpoint:
-   -GET /users/{username}/repos
-   -Returns a list of non-forked repositories for the specified user, including their branches.
+- The main endpoint:
+- GET /users/{username}/repos
+- Returns a list of non-forked repositories for the specified user, including their branches.
 
 ### Error Handling
-  -Returns 404 Not Found if the GitHub user does not exist.
-  -Returns 500 Internal Server Error for other client/server errors.
+- Returns 404 Not Found if the GitHub user does not exist.
+- Returns 500 Internal Server Error for other client/server errors.
 
 ### Project Structure 
-  -controller/ — REST controllers
-  -service/ — Business logic and GitHub API integration
-  -model/ — Data models (RepoInfo, Branch, etc.)
-  -exception/ — Custom exceptions
-  -client/ RestClientConfig
+- controller/ — REST controllers
+- service/ — Business logic and GitHub API integration
+- model/ — Data models (RepoInfo, Branch, etc.)
+- exception/ — Custom exceptions
+- client/ RestClientConfig
   
 
 
