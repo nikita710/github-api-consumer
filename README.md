@@ -43,7 +43,7 @@ A Spring Boot application for consuming the GitHub REST API. It fetches user rep
 
 ### Usage 
 - The main endpoint:
-- GET /users/{username}/repos
+- GET /users/{username}
 - Returns a list of non-forked repositories for the specified user, including their branches.
 
 ### Error Handling
