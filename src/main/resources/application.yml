@@ -1,1 +1,6 @@
-spring.application.name=github-api-consumer
+spring:
+  application:
+    name: github-api-consumer
+github:
+  baseUrl: "https://api.github.com"
+  token: "your_token"
