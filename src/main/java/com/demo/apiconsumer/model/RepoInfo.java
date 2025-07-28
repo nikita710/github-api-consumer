@@ -2,10 +2,10 @@ package com.demo.apiconsumer.model;
 
 import java.util.List;
 
-public record Repository(
+public record RepoInfo(
         String name,
         Owner owner,
         boolean fork,
-        List<Branch> branches // This will be populated by a separate API call
+        List<Branch> branches
 ) {
 }

@@ -3,4 +3,4 @@ spring:
     name: github-api-consumer
 github:
   baseUrl: "https://api.github.com"
-  token: "your_token"
+  token: "your_github_token"

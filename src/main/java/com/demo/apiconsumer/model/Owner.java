@@ -1,4 +1,6 @@
 package com.demo.apiconsumer.model;
 
-public class Owner {
+public record Owner(
+        String login
+) {
 }

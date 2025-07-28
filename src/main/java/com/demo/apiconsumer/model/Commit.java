@@ -1,4 +1,6 @@
 package com.demo.apiconsumer.model;
 
-public class Commit {
+public record Commit(
+        String sha
+) {
 }

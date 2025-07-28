@@ -1,4 +1,4 @@
-package com.demo.apiconsumer.exception;
+package com.demo.apiconsumer.model;
 
 public record ErrorResponse(
         int status,
